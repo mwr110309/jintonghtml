@@ -11,7 +11,7 @@ header span{
     color: #4ebbfe;
 }
 section{
-    height: 8.72rem;
+    /*height: 8.72rem;*/
     width: 100%;
     padding: 0 0.24px;
 }
@@ -45,4 +45,110 @@ section .desc p{
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
+}
+section .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+section .content .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+section .content .top .left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 3.76rem;
+}
+section .content .top .left span:nth-of-type(1){
+    font-size: 0.26rem;
+    color: #fbc36a;
+}
+section .content .top .left span:nth-of-type(2){
+    font-size: 0.20rem;
+    color: #41b2fc;
+    display: block;
+    width: 0.87rem;
+    height: 0.36rem;
+    background-color: #e7faf2;
+    text-align: center;
+    line-height: 0.36rem;
+    border-radius: 0.18rem;
+ }
+section .content .top .left span:nth-of-type(3){
+    font-size: 0.20rem;
+    color: #36d681;
+    display: block;
+    width: 1.33rem;
+    height: 0.36rem;
+    background-color: #e7faf2;
+    text-align: center;
+    line-height: 0.36rem;
+    border-radius: 0.18rem;
+}
+section .content .top .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .content .top .right span:nth-of-type(1){
+    font-size: 0.2rem;
+    color: #000000;
+}
+section .content .top .right span:nth-of-type(2){
+    font-size: 0.24rem;
+    color: #36a8fe;
+    padding-left: 0.13rem;
+}
+section .content .center{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding: 0.22rem 0;
+}
+section .content .center span{
+    font-size: 0.24rem;
+    color: #ff844e;
+}
+section .content .center .manjian{
+    font-size: 0.24rem;
+    color: #fbfeff;
+    font-weight:bold;
+    background: url("../../img/group1/rect.png");
+    background-size: cover;
+    background-position: center;
+    width: 1.84rem;
+    height: 0.39rem;
+    text-align: center;
+    line-height: 0.39rem;
+    margin-left: 0.16rem;
+}
+section .content .bottom{
+    width: 100%;
+    height: 0.6rem;
+}
+section .content .bottom ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    height: 0.6rem;
+    overflow: hidden;
+}
+section .content .bottom ul li{
+    font-size: 0.24rem;
+    color: #41b2fc;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    width: 33%;
+    float: left;
+}
+
+.usercomment span{
+    font-size: 0.32rem;
 }
