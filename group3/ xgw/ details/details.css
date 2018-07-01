@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+/*头部样式开始*/
+header{
+    width: 100%;
+    height: 0.88rem;
+    /*background-color: #f8fcff;*/
+    padding: 0 0.24rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0 0.15rem 0.43rem  0 rgba(41,167,255,0.1);
+}
+header .title{
+    width: 100%;
+    height: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+}
+header .title .iconfont{
+    font-size:0.4rem;
+    color:#41b2fc;
+    line-height:0.88rem;
+    font-weight:900;
+}
+header .title span{
+    font-size: 0.36rem;
+    color: #41b2fc;
+    line-height: 0.88rem;
+}
+/*头部样式结束*/
+/*中部内容开始*/
+.middle{
+    position: absolute;
+    top: 0.88rem;
+    bottom: 0.98rem;
+    left: 0;
+    width:calc(100% - 0.48rem);
+    margin: 0 0.24rem;
+    overflow: hidden;
+}
+/*等待处理开始*/
+.x-await{
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#x-h1{
+    width: 100%;
+    height: 0.74rem;
+    border-bottom: 0.01rem solid #c9cbcc;
+    font-size: 0.3rem;
+    color: #4f5b64;
+    text-align: center;
+}
+#x-dis{
+    width: 100%;
+    height: 1.6rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#x-djs{
+    width: 100%;
+    height: 0.8rem;
+    margin-bottom: 0.45rem;
+    font-size: 0.3rem;
+    color: #4f5b64;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.x-rimg{
+    width: 0.1rem;
+    height: 0.07rem;
+    margin:0 0.1rem;
+}
+.x-d-time{
+    color: #ff6666;
+    font-size: 0.3rem;
+}
+.x-content{
+    width: 100%;
+    margin-bottom: 0.4rem;
+    color: #646666;
+    font-size: 0.25rem;
+    text-align: left;
+    line-height: 0.3rem;
+}
+.x-but{
+    width: 1.65rem;
+    height: 0.6rem;
+    margin-left: 0.24rem;
+    background: #3bacfe;
+    box-shadow: 0 0.07rem 0.35rem 0.01rem #3fddf1d9;
+    border-radius: 3rem;
+    border: none;
+    color: #FFFFFF;
+}
+.x-buta{
+    background: #e7f6ff;
+    color: #41b2fc;
+    box-shadow: none;
+}
+/*等待处理结束*/
+/*退款信息开始*/
+.middle .x-DR{
+    width: 100%;
+    height: auto;
+}
+.middle .x-DR .x-RI{
+    width: 100%;
+    height: 0.91rem;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+#x-dian{
+    width: 0.1rem;
+    height: 0.07rem;
+    margin-right: 0.1rem;
+}
+.middle .x-DR .x-RI .x-ms{
+    font-size: 0.26rem;
+    color: #4f5b64;
+}
+.middle .x-DR .x-RI .x-ms-g{
+    color: #31d094;
+}
+.middle .x-DR .x-commodity{
+    width: 100%;
+    height:2.93rem ;
+    display: flex;
+    justify-content: flex-start;
+}
+#x-c-left{
+    width:1.74rem ;
+    height: 1.74rem;
+    margin-right: 0.27rem;
+}
+.x-c-right{
+    width: calc(100% - 2.01rem);
+    height: 1.74rem;
+    position: relative;
+}
+#x-name{
+    width: 100%;
+    margin-bottom: 0.24rem;
+    font-size: 0.3rem;
+    color: #4f5b64;
+    text-align: left;
+}
+#x-li{
+    width: 100%;
+    height: 1.23rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#x-jone{
+    width: 100%;
+    margin-bottom: 0.15rem;
+    font-size: 0.18rem;
+    color: #41b2fc;
+    text-align: left;
+}
+#x-jtwo{
+    width: 100%;
+    margin-bottom: 0.24rem;
+    font-size: 0.22rem;
+    color: #c9cbcc;
+    text-align: left;
+}
+#x-jthree{
+    width: 100%;
+    font-size: 0.22rem;
+    color: #646666;
+    text-align: left;
+}
+#x-jfour{
+    width: 100%;
+    font-size: 0.22rem;
+    color: #646666;
+    text-align: left;
+    position: absolute;
+    left: calc(100% - 0.7rem);
+    bottom: 0;
+}
+#x-jfive{
+    width: 100%;
+    font-size: 0.3rem;
+    color: #fbb548;
+    text-align: left;
+    position: absolute;
+    left: calc(100% - 2.5rem);
+    bottom: -0.8rem;
+}
+.x-blue:before{
+    content: "\02022";
+    color: #41b2fc;
+    margin-right: 0.1rem;
+}
+.x-green:before{
+    content: "\02022";
+    color: #31d094;
+    margin-right: 0.1rem;
+}
+/*退款信息结束*/
+/*中部内容结束*/
+/*底部开始*/
+footer{
+    width: 100%;
+    height: 0.98rem;
+    position: fixed;
+    bottom: 0;
+    background: #f8fcff;
+}
+.dialog-B{
+    width:4.54rem;
+    height: 0.6rem;
+    margin: 0.25rem auto;
+    border-radius:3rem;
+    background: linear-gradient(to right,#27d29c,#33e171);
+    box-shadow: 0 0.07rem 0.35rem 0.01rem #37df74ba;
+    color: #FFFFFF;
+    font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.68rem;
+}
+/*底部结束*/
